@@ -1,0 +1,49 @@
+class name - hoverbox
+
+
+
+
+.hoverbox{
+    transition: transform .9s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.hoverbox .elementor-icon{
+            transition: color .9s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.hoverbox .elementor-icon-box-title{
+         transition: color .9s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.hoverbox .elementor-icon-box-description{
+         transition: color .9s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.hoverbox:hover {
+    transform: scale(1.0);
+}
+
+.hoverbox:hover .elementor-icon{
+        color: #ffffff;
+}
+
+.hoverbox:hover .elementor-icon-box-title{
+    color: #ffffff;
+}
+
+.hoverbox:hover .elementor-icon-box-description{
+     color: #FFFFFF;
+}
+
+.hoverbox{
+    transition: transform .9s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.hoverbox .elementor-icon, .hoverbox .elementor-icon-box-title, .hoverbox .elementor-icon-box-description{
+            transition: color .9s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.hoverbox:hover {
+    transform: scale(1.0);
+}
+
+.hoverbox:hover .elementor-icon, .hoverbox:hover .elementor-icon-box-title, .hoverbox:hover .elementor-icon-box-description{
+        color: #ffff;
+}
